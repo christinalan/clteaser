@@ -17,7 +17,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 <i class="icon icon-home"></i>
 */
 .icon-me {
-  background-image: url(../img/sprite.png);
+  background-image: url('/img/sprite.png');
   background-position: 0px 0px;
   width: 466px;
   height: 941px;
