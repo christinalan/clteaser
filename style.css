@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: 'Sarala', sans-serif;
+}
+
+*, :before, :after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+.group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 970px;
+    height: 250px;
+    overflow: hidden;
+}
+
+#wrapper {
+    position: relative;
+    visibility: hidden;
+    top: 0px;
+    left: 0px;
+}
+
+.sprite-scale {
+    position: absolute;
+    margin-top: -300px;
+    left: 0px;
+    width: 1940px;
+    height: 500px;
+    overflow: hidden;
+    transform: scale(0.2);
+    -webkit-transform: scale(0.2);
+    -moz-transform: scale(0.2);
+    -ms-transform: scale(0.);
+}
+
+.text {
+    position: absolute;
+    left: -370px;
+    padding: 0px 30px;
+    color: rgb(201, 201, 201);
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+#lastname {
+    margin-top: 100px;
+}
+
+img {
+    position: absolute;
+}
+
+.bg {
+    object-fit: cover;
+    object-position: bottom;
+    width: 1000px;
+    height: 300px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+#visit {
+    z-index: 10;
+    cursor:pointer;
+    color: rgb(212, 248, 69);
+    top: 20px;
+    left: 330px;
+}
+
+#bg3 {
+    object-position: 0% 15%;
+}
+
+#bg4 {
+    object-position: 50% 80%;
+}
+
+#bg5 {
+    object-position: 0% 70%;
+}
+
+#me {
+    left: -462px;
+}
+
+#me2 {
+    left: -450px;
+}
+
+#me3 {
+    left: -425px;
+}
+
+#me4 {
+    left: -375px;
+}
+
+#me5 {
+    left: -300px;
+}
+
+#me6 {
+    left: -200px;
+}
+
+#me7 {
+    left: -75px;
+}
+
+
+
